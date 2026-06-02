@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-02T07:47:39.441Z",
+  "savedAt": "2026-06-02T07:50:48.397Z",
   "groups": [
     {
       "id": "cc91be2c-1ee7-4ed0-ab76-25ac9fabb6e2",
@@ -27,6 +27,16 @@
       "type": "User Story",
       "priority": "High",
       "owner": "David Johnson"
+    },
+    {
+      "id": "bdd52353-5084-49a7-b46d-0fe5036ed20d",
+      "title": "US005: Full class waitlist planning",
+      "description": "As a student, I want to add full courses to my academic roadmap so that I can plan future semesters even when classes are currently full.\n\nAcceptance Criteria:\n1. The student can add a full course to the roadmap as a planned course.\n2. The system clearly marks the course as currently full.\n3. The roadmap retains the planned course after saving.",
+      "groupId": "488d0be0-bc6d-4ef3-a0ba-8f9db10121b3",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Sarah Davis"
     }
   ],
   "analysis": {

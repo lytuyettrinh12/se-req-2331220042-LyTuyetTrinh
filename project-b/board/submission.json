@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-02T09:24:43.870Z",
+  "savedAt": "2026-06-02T09:25:48.773Z",
   "groups": [
     {
       "id": "dcd4d982-3441-426a-8bd9-7535e2c165d1",
@@ -57,6 +57,16 @@
       "type": "User Story",
       "priority": "High",
       "owner": "David Johnson"
+    },
+    {
+      "id": "364c45be-5633-4805-b58b-4a32b3d695ab",
+      "title": "US005: Auction-based item listing",
+      "description": "As a student, I want to create auction listings for my items so that I can sell them to the highest bidder.\n\nAcceptance Criteria:\n1. The student can create a listing with an auction option.\n2. Other students can submit bids higher than the current highest bid.\n3. The system displays the current highest bid for the auction item.",
+      "groupId": "8175c1e4-9b28-4d1a-a66a-e02a78036d0c",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Sarah Davis"
     }
   ],
   "analysis": {

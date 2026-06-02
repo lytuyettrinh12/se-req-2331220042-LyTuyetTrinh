@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-02T06:36:45.292Z",
+  "savedAt": "2026-06-02T06:37:51.846Z",
   "groups": [
     {
       "id": "8a55e014-6ab3-4a0f-ba10-917a91d74c99",
@@ -22,8 +22,8 @@
     "ambiguity1": "The requirement to reduce the queue is too vague because it does not define a measurable target. The requirement does not specify how much the waiting time should be reduced or how success will be evaluated.",
     "ambiguity2": "The requirement to send push notifications offering discounts is vague because it does not specify which students should receive the notifications, how often they should be sent, or whether users can opt out.",
     "conflictSolution": "There is a conflict between the need for real-time order updates and the unreliable Wi-Fi in the cafeteria basement. The solution is to implement an offline mode that stores orders locally for up to 10 minutes and automatically synchronizes data when the connection is restored.",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "Reliability: The kitchen display system must continue operating for at least 10 minutes during internet outages and synchronize when connectivity returns.",
+    "nfr2": "Performance: Students should be able to place orders quickly to reduce cafeteria queue times.",
+    "nfr3": "Usability: Users should be able to easily filter menu items based on allergies and dietary restrictions."
   }
 }

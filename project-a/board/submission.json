@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-02T07:50:48.397Z",
+  "savedAt": "2026-06-02T09:13:13.063Z",
   "groups": [
     {
       "id": "cc91be2c-1ee7-4ed0-ab76-25ac9fabb6e2",
@@ -37,14 +37,74 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Sarah Davis"
+    },
+    {
+      "id": "75b5ce76-a44d-4589-a759-a99804a70ac8",
+      "title": "US001: Course prerequisite checking",
+      "description": "As a student, I want the system to automatically check course prerequisites so that I can know whether I am eligible to enroll in a course.\n\nAcceptance Criteria:\n1. The system displays a warning when prerequisites are not completed.\n2. The system allows a course to be added when all prerequisites are completed.\n3. The system displays all prerequisite courses in the course details.",
+      "groupId": "488d0be0-bc6d-4ef3-a0ba-8f9db10121b3",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Urgent",
+      "owner": "Trinh Ly"
+    },
+    {
+      "id": "81ee93b9-8275-434c-a5d2-420b61c70727",
+      "title": "US002: Academic roadmap planning",
+      "description": "As a student, I want to create a multi-semester academic roadmap so that I can plan my path to graduation.\n\nAcceptance Criteria:\n1. The student can add courses to future semesters.\n2. The roadmap displays all planned courses by semester.\n3. The system saves the roadmap after the student confirms changes.",
+      "groupId": "488d0be0-bc6d-4ef3-a0ba-8f9db10121b3",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Michael Brown"
+    },
+    {
+      "id": "c91fe7b2-b5f0-48a7-96cb-0b633b71d8f4",
+      "title": "US003: Schedule conflict detection",
+      "description": "As a student, I want the system to detect schedule conflicts so that I can avoid enrolling in overlapping classes.\n\nAcceptance Criteria:\n1. The system warns the student when two selected courses have overlapping schedules.\n2. The system identifies the conflicting courses in the warning message.\n3. The student can review conflicts before finalizing the roadmap.",
+      "groupId": "488d0be0-bc6d-4ef3-a0ba-8f9db10121b3",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Emma Wilson"
+    },
+    {
+      "id": "a98ee474-cd3c-4192-9fce-7daca66c4ce0",
+      "title": "NFR Epic 1: Security: Students must not be able to access another student's schedu",
+      "description": "Security: Students must not be able to access another student's schedule or personal academic information.",
+      "groupId": "488d0be0-bc6d-4ef3-a0ba-8f9db10121b3",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "a7e12594-9edf-4ba6-a032-68134b3e1882",
+      "title": "NFR Epic 2: Auditability: The system must record all advisor prerequisite override",
+      "description": "Auditability: The system must record all advisor prerequisite overrides for auditing purposes.",
+      "groupId": "488d0be0-bc6d-4ef3-a0ba-8f9db10121b3",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "3d06aece-31f1-4042-96fe-b5ee8cddd0fc",
+      "title": "NFR Epic 3: Usability: The system should provide an intuitive drag-and-drop interf",
+      "description": "Usability: The system should provide an intuitive drag-and-drop interface for academic planning.",
+      "groupId": "488d0be0-bc6d-4ef3-a0ba-8f9db10121b3",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
-    "ambiguity1": "",
-    "ambiguity2": "",
-    "conflictSolution": "",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "ambiguity1": "The requirement \"The course catalog is ugly\" is too vague because it does not specify what aspects of the catalog need improvement. There are no measurable usability, design, or functionality criteria that developers can implement.",
+    "ambiguity2": "The requirement to warn students about 8:00 AM classes is vague because it is unclear whether the warning should apply to all students or only to those who choose to receive such notifications. The requirement does not define the warning rules.",
+    "conflictSolution": "There is a conflict between the Registrar, who wants to prevent students from adding full classes to their roadmap, and the Head of Advising, who wants students to plan four years ahead. The solution is to allow future courses to be added as planned courses when availability is unknown, while current-term courses must check real-time seat availability.",
+    "nfr1": "Security: Students must not be able to access another student's schedule or personal academic information.",
+    "nfr2": "Auditability: The system must record all advisor prerequisite overrides for auditing purposes.",
+    "nfr3": "Usability: The system should provide an intuitive drag-and-drop interface for academic planning."
   }
 }

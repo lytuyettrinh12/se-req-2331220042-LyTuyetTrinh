@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-02T09:36:48.710Z",
+  "savedAt": "2026-06-02T09:37:48.490Z",
   "groups": [
     {
       "id": "a8c3bfd0-4d11-4406-8497-2e0ad82370bc",
@@ -27,6 +27,16 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Alex Carter"
+    },
+    {
+      "id": "6766858f-5a4f-4164-9a08-656cccd10e90",
+      "title": "US002: Allergy-based menu filtering",
+      "description": "As a student with food allergies, I want to filter menu items based on allergens so that I only see foods that are safe for me to eat.\n\nAcceptance Criteria:\n1. The student can select one or more allergen filters.\n2. Menu items containing the selected allergens are hidden from the menu.\n3. The filtered menu updates immediately after a filter is applied.",
+      "groupId": "7dfd0394-9da6-429d-8253-a4f8eba3acc1",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Olivia Smith"
     }
   ],
   "analysis": {

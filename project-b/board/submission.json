@@ -1,29 +1,40 @@
 {
-  "savedAt": "2026-06-02T06:31:29.662Z",
+  "savedAt": "2026-06-02T09:20:48.925Z",
   "groups": [
     {
-      "id": "504e4343-2766-48bd-8ef3-30278ba3d0b1",
+      "id": "dcd4d982-3441-426a-8bd9-7535e2c165d1",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "3b7d6271-8481-4de7-a95d-279893bcb7b1",
+      "id": "8175c1e4-9b28-4d1a-a66a-e02a78036d0c",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "0c9128eb-106f-40f0-b532-fba687b60bb9",
+      "id": "dae04b2c-d9aa-480b-87ba-8e40cc8b37da",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "361384fb-0711-4b5b-a696-fc2f506ad1f7",
+      "title": "US001: Student account verification",
+      "description": "As a student, I want to create an account using my .edu email address so that only verified students can access the marketplace.\n\nAcceptance Criteria:\n1. The system accepts registration using a valid .edu email address.\n2. The system rejects registration using a non-.edu email address.\n3. The user can access the marketplace after email verification.",
+      "groupId": "8175c1e4-9b28-4d1a-a66a-e02a78036d0c",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Trinh Ly"
+    }
+  ],
   "analysis": {
-    "ambiguity1": "The requirement that the app should be \"exclusive\" is too vague because it does not clearly define all eligibility rules beyond having a valid .edu email address. It does not specify how accounts should be verified or handled after graduation.",
-    "ambiguity2": "The requirement to suggest Safe Exchange Zones is vague because it does not define how zones are selected, maintained, or whether users can choose alternative meeting locations. The requirement lacks clear operational rules.",
-    "conflictSolution": "There is a conflict between the University Legal Team, which does not allow the app to process payments, and the Student Union President, who wants to collect a 2% transaction fee. The solution is to avoid in-app payment processing and instead allow optional donations to the Student Union through a separate university-approved donation system.",
-    "nfr1": "Security: Only users with verified .edu email addresses should be allowed to create accounts.",
-    "nfr2": "Safety: The system should promote safe exchanges by requiring users to select approved Safe Exchange Zones.",
-    "nfr3": "Usability: Users should be able to quickly create listings using barcode scanning instead of manual data entry."
+    "ambiguity1": "",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
   }
 }

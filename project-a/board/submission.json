@@ -1,42 +1,32 @@
 {
-  "savedAt": "2026-06-02T07:33:53.884Z",
+  "savedAt": "2026-06-02T07:47:39.441Z",
   "groups": [
     {
-      "id": "000cb2ef-43d4-4630-ad9c-cc8acc7e258b",
+      "id": "cc91be2c-1ee7-4ed0-ab76-25ac9fabb6e2",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "56537685-9904-4a19-8278-8be4442ac06f",
+      "id": "488d0be0-bc6d-4ef3-a0ba-8f9db10121b3",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "6758febe-538a-4f14-bb79-3bf3fd424753",
+      "id": "c7f5ec2b-432b-49fb-b364-594d58934a93",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "4043751a-5c79-4dab-b60f-e5e80aaf3b7a",
-      "title": "US002: Academic roadmap planning",
-      "description": "As a student, I want to create a multi-semester academic roadmap so that I can plan my path to graduation.\n\nAcceptance Criteria:\n1. The student can add courses to future semesters.\n2. The roadmap displays all planned courses by semester.\n3. The system saves the roadmap after the student confirms changes.",
-      "groupId": "56537685-9904-4a19-8278-8be4442ac06f",
+      "id": "b62f9cbf-8578-48cc-a464-6d8a71e95ad7",
+      "title": "US004: Advisor prerequisite override",
+      "description": "As an advisor, I want to override prerequisite requirements for approved students so that I can allow special enrollment exceptions.\n\nAcceptance Criteria:\n1. The advisor can approve a prerequisite override for a student.\n2. The system records the advisor's name and the override reason.\n3. The student can enroll in the course after the override is approved.",
+      "groupId": "488d0be0-bc6d-4ef3-a0ba-8f9db10121b3",
       "status": "todo",
       "type": "User Story",
-      "priority": "Medium",
-      "owner": "Michael Brown"
-    },
-    {
-      "id": "f90c016c-050a-4add-a23c-38e6455837d7",
-      "title": "US003: Schedule conflict detection",
-      "description": "As a student, I want the system to detect schedule conflicts so that I can avoid enrolling in overlapping classes.\n\nAcceptance Criteria:\n1. The system warns the student when two selected courses have overlapping schedules.\n2. The system identifies the conflicting courses in the warning message.\n3. The student can review conflicts before finalizing the roadmap.",
-      "groupId": "56537685-9904-4a19-8278-8be4442ac06f",
-      "status": "todo",
-      "type": "User Story",
-      "priority": "Medium",
-      "owner": "Emma Wilson"
+      "priority": "High",
+      "owner": "David Johnson"
     }
   ],
   "analysis": {

@@ -1,29 +1,40 @@
 {
-  "savedAt": "2026-06-02T06:19:17.141Z",
+  "savedAt": "2026-06-02T07:02:11.102Z",
   "groups": [
     {
-      "id": "078166c4-5779-4e21-8877-34087677908d",
+      "id": "7e20585b-ca28-4c80-91b3-79cdee86b041",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "a772003c-02be-4144-860b-7304c8ab636f",
+      "id": "24b03163-3533-414d-bb08-78c301222ba7",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "7203cc3c-cdf6-4691-9281-6239725a6486",
+      "id": "0f786a28-110f-43ba-91ce-1369acedbdd4",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "26bdeb05-b7f5-4eeb-830f-65712521cb20",
+      "title": "US001: Course prerequisite checking",
+      "description": "As a student, I want the system to automatically check course prerequisites so that I can know whether I am eligible to enroll in a course.\n\nAcceptance Criteria:\n1. The system displays a warning when prerequisites are not completed.\n2. The system allows a course to be added when all prerequisites are completed.\n3. The system displays all prerequisite courses in the course details.",
+      "groupId": "24b03163-3533-414d-bb08-78c301222ba7",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Urgent",
+      "owner": "Trinh Ly"
+    }
+  ],
   "analysis": {
-    "ambiguity1": "The requirement \"The course catalog is ugly\" is too vague because it does not specify what aspects of the catalog need improvement. There are no measurable usability, design, or functionality criteria that developers can implement.",
-    "ambiguity2": "The requirement to warn students about 8:00 AM classes is vague because it is unclear whether the warning should apply to all students or only to those who choose to receive such notifications. The requirement does not define the warning rules.",
-    "conflictSolution": "There is a conflict between the Registrar, who wants to prevent students from adding full classes to their roadmap, and the Head of Advising, who wants students to plan four years ahead. The solution is to allow future courses to be added as planned courses when availability is unknown, while current-term courses must check real-time seat availability.",
-    "nfr1": "Security: Students must not be able to access another student's schedule or personal academic information.",
-    "nfr2": "Auditability: The system must record all advisor prerequisite overrides for auditing purposes.",
-    "nfr3": "Usability: The system should provide an intuitive drag-and-drop interface for academic planning."
+    "ambiguity1": "",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
   }
 }

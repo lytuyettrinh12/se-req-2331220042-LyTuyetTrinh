@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-02T06:34:07.534Z",
+  "savedAt": "2026-06-02T06:35:48.207Z",
   "groups": [
     {
       "id": "8a55e014-6ab3-4a0f-ba10-917a91d74c99",
@@ -20,7 +20,7 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "The requirement to reduce the queue is too vague because it does not define a measurable target. The requirement does not specify how much the waiting time should be reduced or how success will be evaluated.",
-    "ambiguity2": "",
+    "ambiguity2": "The requirement to send push notifications offering discounts is vague because it does not specify which students should receive the notifications, how often they should be sent, or whether users can opt out.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",

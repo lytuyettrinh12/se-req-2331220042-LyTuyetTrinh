@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-02T09:25:48.773Z",
+  "savedAt": "2026-06-02T09:31:43.887Z",
   "groups": [
     {
       "id": "dcd4d982-3441-426a-8bd9-7535e2c165d1",
@@ -67,14 +67,44 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Sarah Davis"
+    },
+    {
+      "id": "bc1bd645-d565-4515-9c59-e985c29b7185",
+      "title": "NFR Epic 1: Security: Only users with verified .edu email addresses should be allo",
+      "description": "Security: Only users with verified .edu email addresses should be allowed to create accounts.",
+      "groupId": "8175c1e4-9b28-4d1a-a66a-e02a78036d0c",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "64153806-eaad-4b6e-a848-94ab75e03419",
+      "title": "NFR Epic 2: Safety: The system should promote safe exchanges by requiring users to",
+      "description": "Safety: The system should promote safe exchanges by requiring users to select approved Safe Exchange Zones.",
+      "groupId": "8175c1e4-9b28-4d1a-a66a-e02a78036d0c",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "02478481-1300-44d0-bbc1-68daf19948f1",
+      "title": "NFR Epic 3: Usability: Users should be able to quickly create listings using barco",
+      "description": "Usability: Users should be able to quickly create listings using barcode scanning instead of manual data entry.",
+      "groupId": "8175c1e4-9b28-4d1a-a66a-e02a78036d0c",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
-    "ambiguity1": "",
-    "ambiguity2": "",
-    "conflictSolution": "",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "ambiguity1": "The requirement that the app should be \"exclusive\" is too vague because it does not clearly define all eligibility rules beyond having a valid .edu email address. It does not specify how accounts should be verified or handled after graduation.",
+    "ambiguity2": "The requirement to suggest Safe Exchange Zones is vague because it does not define how zones are selected, maintained, or whether users can choose alternative meeting locations. The requirement lacks clear operational rules.",
+    "conflictSolution": "There is a conflict between the University Legal Team, which does not allow the app to process payments, and the Student Union President, who wants to collect a 2% transaction fee. The solution is to avoid in-app payment processing and instead allow optional donations to the Student Union through a separate university-approved donation system.",
+    "nfr1": "Security: Only users with verified .edu email addresses should be allowed to create accounts.",
+    "nfr2": "Safety: The system should promote safe exchanges by requiring users to select approved Safe Exchange Zones.",
+    "nfr3": "Usability: Users should be able to quickly create listings using barcode scanning instead of manual data entry."
   }
 }

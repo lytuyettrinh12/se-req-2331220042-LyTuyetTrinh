@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-06-02T06:34:07.534Z",
+  "groups": [
+    {
+      "id": "8a55e014-6ab3-4a0f-ba10-917a91d74c99",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "3bf44677-bac7-48d4-adf3-08a5696fbb8a",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "4059ade3-c7ca-4e28-b05c-a0e550f83b38",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "The requirement to reduce the queue is too vague because it does not define a measurable target. The requirement does not specify how much the waiting time should be reduced or how success will be evaluated.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}

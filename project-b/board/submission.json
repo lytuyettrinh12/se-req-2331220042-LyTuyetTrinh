@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-02T09:20:48.925Z",
+  "savedAt": "2026-06-02T09:22:17.172Z",
   "groups": [
     {
       "id": "dcd4d982-3441-426a-8bd9-7535e2c165d1",
@@ -27,6 +27,16 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Trinh Ly"
+    },
+    {
+      "id": "3c0d0a1f-84f5-4825-bb4c-6a3500e10251",
+      "title": "US002: Safe exchange zone selection",
+      "description": "As a student, I want to select a safe exchange zone before chatting with a seller so that item exchanges are safer.\n\nAcceptance Criteria:\n1. The system displays a list of approved safe exchange zones.\n2. The user must select a safe exchange zone before starting a chat.\n3. The selected safe exchange zone is visible in the chat.",
+      "groupId": "8175c1e4-9b28-4d1a-a66a-e02a78036d0c",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Michael Brown"
     }
   ],
   "analysis": {

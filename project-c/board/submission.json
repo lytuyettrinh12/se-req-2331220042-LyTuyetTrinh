@@ -1,29 +1,40 @@
 {
-  "savedAt": "2026-06-02T06:37:51.846Z",
+  "savedAt": "2026-06-02T09:36:48.710Z",
   "groups": [
     {
-      "id": "8a55e014-6ab3-4a0f-ba10-917a91d74c99",
+      "id": "a8c3bfd0-4d11-4406-8497-2e0ad82370bc",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "3bf44677-bac7-48d4-adf3-08a5696fbb8a",
+      "id": "7dfd0394-9da6-429d-8253-a4f8eba3acc1",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "4059ade3-c7ca-4e28-b05c-a0e550f83b38",
+      "id": "5183e94a-5584-49d2-982f-d2f6445928e1",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "acfbdccf-deb8-41f4-9b61-03de0818cdaf",
+      "title": "US001: Mobile food ordering",
+      "description": "As a student, I want to order food from my phone before arriving at the cafeteria so that I can reduce waiting time in line.\n\nAcceptance Criteria:\n1. The student can browse the menu on a mobile device.\n2. The student can place an order before arriving at the cafeteria.\n3. The order appears in the kitchen order queue after submission.",
+      "groupId": "7dfd0394-9da6-429d-8253-a4f8eba3acc1",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Alex Carter"
+    }
+  ],
   "analysis": {
-    "ambiguity1": "The requirement to reduce the queue is too vague because it does not define a measurable target. The requirement does not specify how much the waiting time should be reduced or how success will be evaluated.",
-    "ambiguity2": "The requirement to send push notifications offering discounts is vague because it does not specify which students should receive the notifications, how often they should be sent, or whether users can opt out.",
-    "conflictSolution": "There is a conflict between the need for real-time order updates and the unreliable Wi-Fi in the cafeteria basement. The solution is to implement an offline mode that stores orders locally for up to 10 minutes and automatically synchronizes data when the connection is restored.",
-    "nfr1": "Reliability: The kitchen display system must continue operating for at least 10 minutes during internet outages and synchronize when connectivity returns.",
-    "nfr2": "Performance: Students should be able to place orders quickly to reduce cafeteria queue times.",
-    "nfr3": "Usability: Users should be able to easily filter menu items based on allergies and dietary restrictions."
+    "ambiguity1": "",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
   }
 }

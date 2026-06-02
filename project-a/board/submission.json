@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-02T06:08:03.600Z",
+  "savedAt": "2026-06-02T06:16:27.561Z",
   "groups": [
     {
       "id": "078166c4-5779-4e21-8877-34087677908d",
@@ -21,7 +21,7 @@
   "analysis": {
     "ambiguity1": "The requirement \"The course catalog is ugly\" is too vague because it does not specify what aspects of the catalog need improvement. There are no measurable usability, design, or functionality criteria that developers can implement.",
     "ambiguity2": "The requirement to warn students about 8:00 AM classes is vague because it is unclear whether the warning should apply to all students or only to those who choose to receive such notifications. The requirement does not define the warning rules.",
-    "conflictSolution": "",
+    "conflictSolution": "There is a conflict between the Registrar, who wants to prevent students from adding full classes to their roadmap, and the Head of Advising, who wants students to plan four years ahead. The solution is to allow future courses to be added as planned courses when availability is unknown, while current-term courses must check real-time seat availability.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""

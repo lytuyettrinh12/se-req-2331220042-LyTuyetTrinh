@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-02T09:22:17.172Z",
+  "savedAt": "2026-06-02T09:23:27.184Z",
   "groups": [
     {
       "id": "dcd4d982-3441-426a-8bd9-7535e2c165d1",
@@ -37,6 +37,16 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Michael Brown"
+    },
+    {
+      "id": "b7f83bb8-5d44-42c4-b4c1-f29569cf7a28",
+      "title": "US003: Barcode scanning for listings",
+      "description": "As a student, I want to scan a textbook barcode with my phone camera so that I can create listings faster without manually entering details.\n\nAcceptance Criteria:\n1. The student can scan a barcode using the device camera.\n2. The system automatically fills in available textbook information after scanning.\n3. The student can edit the listing information before publishing.",
+      "groupId": "8175c1e4-9b28-4d1a-a66a-e02a78036d0c",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Emma Wilson"
     }
   ],
   "analysis": {

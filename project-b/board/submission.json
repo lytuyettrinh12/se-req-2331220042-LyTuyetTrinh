@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-02T09:23:27.184Z",
+  "savedAt": "2026-06-02T09:24:43.870Z",
   "groups": [
     {
       "id": "dcd4d982-3441-426a-8bd9-7535e2c165d1",
@@ -47,6 +47,16 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Emma Wilson"
+    },
+    {
+      "id": "f59f962f-3352-44a2-8b8d-0b9671456fd5",
+      "title": "US004: Safe exchange zone management",
+      "description": "As a staff member, I want to manage approved Safe Exchange Zones so that students can meet in secure locations for transactions.\n\nAcceptance Criteria:\n1. The staff member can add a new Safe Exchange Zone.\n2. The staff member can edit or remove an existing Safe Exchange Zone.\n3. Students can view the updated list of approved Safe Exchange Zones when arranging meetups.",
+      "groupId": "8175c1e4-9b28-4d1a-a66a-e02a78036d0c",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "David Johnson"
     }
   ],
   "analysis": {

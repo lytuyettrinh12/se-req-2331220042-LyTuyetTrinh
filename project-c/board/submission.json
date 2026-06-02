@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-02T09:37:48.490Z",
+  "savedAt": "2026-06-02T09:39:47.814Z",
   "groups": [
     {
       "id": "a8c3bfd0-4d11-4406-8497-2e0ad82370bc",
@@ -37,6 +37,16 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Olivia Smith"
+    },
+    {
+      "id": "c75ea329-c514-49d5-8d1e-72f1862bda64",
+      "title": "US003: Sold-out menu management",
+      "description": "As a staff member, I want to mark menu items as sold out instantly so that students cannot order unavailable food items.\n\nAcceptance Criteria:\n1. The staff member can mark a menu item as sold out.\n2. Sold-out items cannot be ordered by students.\n3. The menu updates immediately to reflect the sold-out status.",
+      "groupId": "7dfd0394-9da6-429d-8253-a4f8eba3acc1",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Ethan Brown"
     }
   ],
   "analysis": {

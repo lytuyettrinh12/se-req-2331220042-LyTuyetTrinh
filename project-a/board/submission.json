@@ -1,32 +1,32 @@
 {
-  "savedAt": "2026-06-02T07:02:11.102Z",
+  "savedAt": "2026-06-02T07:30:47.026Z",
   "groups": [
     {
-      "id": "7e20585b-ca28-4c80-91b3-79cdee86b041",
+      "id": "000cb2ef-43d4-4630-ad9c-cc8acc7e258b",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "24b03163-3533-414d-bb08-78c301222ba7",
+      "id": "56537685-9904-4a19-8278-8be4442ac06f",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "0f786a28-110f-43ba-91ce-1369acedbdd4",
+      "id": "6758febe-538a-4f14-bb79-3bf3fd424753",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "26bdeb05-b7f5-4eeb-830f-65712521cb20",
-      "title": "US001: Course prerequisite checking",
-      "description": "As a student, I want the system to automatically check course prerequisites so that I can know whether I am eligible to enroll in a course.\n\nAcceptance Criteria:\n1. The system displays a warning when prerequisites are not completed.\n2. The system allows a course to be added when all prerequisites are completed.\n3. The system displays all prerequisite courses in the course details.",
-      "groupId": "24b03163-3533-414d-bb08-78c301222ba7",
+      "id": "4043751a-5c79-4dab-b60f-e5e80aaf3b7a",
+      "title": "US002: Academic roadmap planning",
+      "description": "As a student, I want to create a multi-semester academic roadmap so that I can plan my path to graduation.\n\nAcceptance Criteria:\n1. The student can add courses to future semesters.\n2. The roadmap displays all planned courses by semester.\n3. The system saves the roadmap after the student confirms changes.",
+      "groupId": "56537685-9904-4a19-8278-8be4442ac06f",
       "status": "todo",
       "type": "User Story",
-      "priority": "Urgent",
-      "owner": "Trinh Ly"
+      "priority": "Medium",
+      "owner": "Michael Brown"
     }
   ],
   "analysis": {

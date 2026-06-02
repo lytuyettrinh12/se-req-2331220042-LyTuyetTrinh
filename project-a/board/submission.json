@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-06-02T06:04:28.579Z",
+  "groups": [
+    {
+      "id": "078166c4-5779-4e21-8877-34087677908d",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "a772003c-02be-4144-860b-7304c8ab636f",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "7203cc3c-cdf6-4691-9281-6239725a6486",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "The requirement \"The course catalog is ugly\" is too vague because it does not specify what aspects of the catalog need improvement. There are no measurable usability, design, or functionality criteria that developers can implement.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-06-02T06:24:56.271Z",
+  "groups": [
+    {
+      "id": "504e4343-2766-48bd-8ef3-30278ba3d0b1",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "3b7d6271-8481-4de7-a95d-279893bcb7b1",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "0c9128eb-106f-40f0-b532-fba687b60bb9",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "The requirement that the app should be \"exclusive\" is too vague because it does not clearly define all eligibility rules beyond having a valid .edu email address. It does not specify how accounts should be verified or handled after graduation.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}

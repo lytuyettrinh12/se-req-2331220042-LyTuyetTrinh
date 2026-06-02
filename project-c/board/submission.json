@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-02T09:44:25.023Z",
+  "savedAt": "2026-06-02T09:49:32.131Z",
   "groups": [
     {
       "id": "a8c3bfd0-4d11-4406-8497-2e0ad82370bc",
@@ -67,14 +67,44 @@
       "type": "User Story",
       "priority": "Urgent",
       "owner": "Daniel Lee"
+    },
+    {
+      "id": "760ba3c9-c84e-4064-97c8-8b8b2c0e7772",
+      "title": "NFR Epic 1: Reliability: The kitchen display system must continue operating for at",
+      "description": "Reliability: The kitchen display system must continue operating for at least 10 minutes during internet outages and synchronize when connectivity returns.",
+      "groupId": "7dfd0394-9da6-429d-8253-a4f8eba3acc1",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "d7b2b909-7e19-4895-9832-eec1bd84b17f",
+      "title": "NFR Epic 2: Performance: Students should be able to place orders quickly to reduce",
+      "description": "Performance: Students should be able to place orders quickly to reduce cafeteria queue times.",
+      "groupId": "7dfd0394-9da6-429d-8253-a4f8eba3acc1",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "b53d7656-60e0-414d-850b-1d4dc542ba33",
+      "title": "NFR Epic 3: Usability: Users should be able to easily filter menu items based on a",
+      "description": "Usability: Users should be able to easily filter menu items based on allergies and dietary restrictions.",
+      "groupId": "7dfd0394-9da6-429d-8253-a4f8eba3acc1",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
-    "ambiguity1": "",
-    "ambiguity2": "",
-    "conflictSolution": "",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "ambiguity1": "The requirement to reduce the queue is too vague because it does not define a measurable target. The requirement does not specify how much the waiting time should be reduced or how success will be evaluated.",
+    "ambiguity2": "The requirement to send push notifications offering discounts is vague because it does not specify which students should receive the notifications, how often they should be sent, or whether users can opt out.",
+    "conflictSolution": "There is a conflict between the need for real-time order updates and the unreliable Wi-Fi in the cafeteria basement. The solution is to implement an offline mode that stores orders locally for up to 10 minutes and automatically synchronizes data when the connection is restored.",
+    "nfr1": "Reliability: The kitchen display system must continue operating for at least 10 minutes during internet outages and synchronize when connectivity returns.",
+    "nfr2": "Performance: Students should be able to place orders quickly to reduce cafeteria queue times.",
+    "nfr3": "Usability: Users should be able to easily filter menu items based on allergies and dietary restrictions."
   }
 }

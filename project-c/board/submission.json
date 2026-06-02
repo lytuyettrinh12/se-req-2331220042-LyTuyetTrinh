@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-02T09:49:32.131Z",
+  "savedAt": "2026-06-02T09:55:55.287Z",
   "groups": [
     {
       "id": "a8c3bfd0-4d11-4406-8497-2e0ad82370bc",
@@ -50,8 +50,8 @@
     },
     {
       "id": "d0c29ea4-2c70-4fe1-98f0-92d62730bfdd",
-      "title": "US004: Sold out menu management",
-      "description": "As a staff member, I want to mark menu items as sold out instantly so that students cannot order unavailable food.\n\nAcceptance Criteria:\n1. The staff member can mark a menu item as sold out.\n2. Sold out items are no longer available for new orders.\n3. Students can see that the item is sold out on the menu.",
+      "title": "US004: Offline kitchen display system",
+      "description": "As a staff member, I want the kitchen display system to continue working during internet outages so that orders are not lost when Wi-Fi fails.\n\nAcceptance Criteria:\n1. The kitchen display system continues operating for at least 10 minutes during a network outage.\n2. Orders received during the outage are stored locally.\n3. The system automatically synchronizes stored orders when the internet connection is restored.",
       "groupId": "7dfd0394-9da6-429d-8253-a4f8eba3acc1",
       "status": "todo",
       "type": "User Story",
